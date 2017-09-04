@@ -1,0 +1,14 @@
+.s-search-page{
+	padding: 80px 0;
+
+	.search-item{
+		h4 a{
+			color: $blue;
+			transition: all 0.3s ease;
+
+			&:hover{
+				color: $gold;
+			}
+		}
+	}
+}

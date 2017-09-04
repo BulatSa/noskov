@@ -1,0 +1,52 @@
+.pagination-wrap {
+	padding-bottom: 80px;
+	overflow: hidden;
+	@include res(xl) {
+		padding-bottom: 60px;
+	}
+	@include res(s) {
+		padding-bottom: 40px;
+	}
+	&--gray {
+		background: #F6F6F6;
+	}
+}
+
+.pagination{
+	text-align: center;
+	margin-top: 40px;
+	@include res(s){
+		margin-top: 20px;
+	}
+
+	a{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 16px;
+		color: $blue;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		line-height: 32px;
+		background: transparent;
+		transition: all 0.3s ease;
+		
+		&:hover{
+			background: #eee;
+		}
+
+		i{
+			line-height: 32px;
+		}
+
+		&.active{
+			color: $gold;
+			pointer-events: none;
+		}
+	}
+
+	&__inactive{
+		opacity: 0.3;
+		pointer-events: none;
+	}
+}

@@ -1,0 +1,20 @@
+$breakpoints: (
+	'xl': (max-width: 1400px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 680px),
+	'xs': (max-width: 480px),
+	'xxs': (max-width: 380px)
+);
+
+$font: 'Proxima Nova Rg', 'Helvetica Neue', Arial, sans-serif;
+$font-serif: 'Palatino Linotype', serif;
+$font-icons: 'noskov' !important;
+
+$black: #000;
+$gold: #d1b36c; // Заголовки и фоны, брендовый
+$blue: #232780; // Заголовки и фоны, брендовый
+
+$container_width: 1430px + 30px; // Ширина конт части
+
+$gutter: 15px; // Отступы в сетке

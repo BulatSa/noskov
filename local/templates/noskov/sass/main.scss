@@ -1,0 +1,50 @@
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/placeholders';
+
+@import 'vendors/fancybox';
+@import 'vendors/flickity';
+
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/icons';
+@import 'base/typography';
+@import 'base/grid';
+
+@import 'modules/forms';
+@import 'modules/buttons';
+@import 'modules/modals';
+@import 'modules/site_head';
+@import 'modules/site_footer';
+@import 'modules/page-header';
+@import 'modules/serts';
+@import 'modules/book-intro';
+@import 'modules/smi-intro';
+@import 'modules/article-intro';
+@import 'modules/case-intro';
+@import 'modules/pagination';
+@import 'modules/analitic-intro';
+@import 'modules/s-order';
+@import 'modules/about-photo';
+@import 'modules/about-man';
+@import 'modules/about-icon-list';
+@import 'modules/solutions';
+@import 'modules/cons-record';
+@import 'modules/disput-order';
+@import 'modules/contact-info';
+@import 'modules/about-sert';
+@import 'modules/about-slider';
+@import 'modules/about-stat';
+@import 'modules/books';
+@import 'modules/animation';
+
+@import 'pages/home';
+@import 'pages/articles';
+@import 'pages/publications';
+@import 'pages/books';
+@import 'pages/infobase';
+@import 'pages/analitic';
+@import 'pages/cases';
+@import 'pages/disputs';
+@import 'pages/details';
+@import 'pages/search-page';

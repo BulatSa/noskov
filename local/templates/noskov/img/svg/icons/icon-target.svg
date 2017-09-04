@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97.81" height="105.1" viewBox="0 0 97.81 105.1">
+  <title>icon-target</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_4" data-name="Layer 4">
+      <g>
+        <polyline points="17.73 89.32 13.61 103.6 23.23 103.6 25.91 94.32" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+        <polyline points="65.64 89.73 69.64 103.6 60.02 103.6 57.28 94.11" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+      </g>
+      <g>
+        <path d="M70.28,28.51a40.29,40.29,0,1,0,0,57A40.33,40.33,0,0,0,70.28,28.51ZM63,78.22a30,30,0,1,1,0-42.44A30,30,0,0,1,63,78.22Z" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+        <path d="M56.3,42.49a20.53,20.53,0,1,0,0,29A20.54,20.54,0,0,0,56.3,42.49ZM48.15,63.36a9,9,0,1,1,0-12.72A9,9,0,0,1,48.15,63.36Z" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+        <path d="M70.28,28.51a40.29,40.29,0,1,0,0,57A40.33,40.33,0,0,0,70.28,28.51ZM63,78.22a30,30,0,1,1,0-42.44A30,30,0,0,1,63,78.22Z" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+        <path d="M56.3,42.49a20.53,20.53,0,1,0,0,29A20.54,20.54,0,0,0,56.3,42.49ZM48.15,63.36a9,9,0,1,1,0-12.72A9,9,0,0,1,48.15,63.36Z" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+      </g>
+      <g>
+        <g>
+          <polygon points="73.2 24.61 70.68 17.05 84.95 2.78 87.47 10.34 73.2 24.61" style="fill: none;stroke: #d1b36c;stroke-miterlimit: 10"/>
+          <polygon points="73.2 24.61 80.76 27.13 95.03 12.85 87.47 10.34 73.2 24.61" style="fill: none;stroke: #d1b36c;stroke-miterlimit: 10"/>
+        </g>
+        <g>
+          <polygon points="73.2 24.61 70.68 17.05 84.95 2.78 87.47 10.34 73.2 24.61" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+          <polygon points="73.2 24.61 80.76 27.13 95.03 12.85 87.47 10.34 73.2 24.61" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+        </g>
+        <line x1="41.3" y1="56.59" x2="89.63" y2="8.25" style="fill: none;stroke: #d1b36c;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+.analitic-intro{
+	margin-bottom: 40px;
+
+	&__title{
+		display: inline-block;
+		@extend %link-blue;
+		margin-bottom: 10px;
+		
+		img {
+			display: block;
+			height: 65px;
+			margin-bottom: 20px;
+			
+			@include res(s) {
+				height: 50px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	&__footer{
+		margin-top: 15px;
+
+		time{
+			font-size: 14px;
+			color: $gold;
+			margin-right: 20px;
+		}
+	}
+}

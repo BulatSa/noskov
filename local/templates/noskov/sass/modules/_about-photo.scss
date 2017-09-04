@@ -1,0 +1,17 @@
+.about-photo {
+	background-size: cover;
+	padding: 45px;
+	@include res(xl) {
+		height: 700px;
+	}
+	@include res(l) {
+		height: 600px;
+	}
+	@include res(m) {
+		background: url("../img/home/about-photo.jpg") center -50px no-repeat $black;
+		height: 500px;
+	}
+	@include res(s) {
+		padding: 0;
+	}
+}

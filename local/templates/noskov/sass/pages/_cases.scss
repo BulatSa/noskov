@@ -1,0 +1,61 @@
+.page-header--cases{
+	background: url("../img/head-partret.jpg") center top no-repeat $blue;
+	background-size: cover;
+	text-align: right;
+	@include res(s){
+		background-image: url(../img/head-partret--s.jpg);
+	}
+
+	.container{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		@include res(s){
+			display: block;
+		}
+	}
+
+	.page-header__title{
+		font-size: 56px;
+		@include res(xl){
+			font-size: 50px;
+		}
+		@include res(l){
+			font-size: 40px;
+		}
+		@include res(s){
+			font-size: 36px;
+			text-align: center;
+		}
+		@include res(xs){
+			font-size: 24px;
+		}
+	}
+
+	.page-header__goldtext{
+		font-weight: normal;
+		font-size: 34px;
+		@include res(xl){
+			max-width: 600px;
+			font-size: 32px;
+		}
+		@include res(l){
+			max-width: 500px;
+			font-size: 28px;
+		}
+		@include res(s){
+			max-width: 100%;
+			font-size: 20px;
+			text-align: center;
+		}
+		@include res(xs){
+			font-size: 18px;
+		}
+
+		small{
+			margin-top: 0.4em;
+			display: block;
+			font-size: 70%;
+		}
+	}
+}

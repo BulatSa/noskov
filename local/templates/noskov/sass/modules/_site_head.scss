@@ -1,0 +1,293 @@
+.body-wrap {
+	position: relative;
+	background: #FFF;
+	z-index: 200;
+}
+
+//s-top-panel
+.s-top-panel{
+	background: #FFF;
+	padding: 12px 0;
+	user-select: none;
+	@include res(l){
+		padding: 8px 0;
+	}
+
+	.container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.site-phone{
+		color: $blue;
+		@include res(l){
+			font-size: 20px;
+		}
+		@include res(m){
+			font-size: 18px;
+		}
+
+		&:hover{
+			color: $gold;
+		}
+	}
+
+	.social-links{
+		@include res(m){
+			a{
+				font-size: 14px;
+				padding: 2px 10px;
+			}
+		}
+	}
+}
+
+.social-links{
+	display: flex;
+	line-height: 1;
+
+	a{
+		padding: 4px 15px;
+		font-size: 17px;
+		color: $gold;
+		border-left: 1px solid $gold;
+		transition: color 0.3s ease;
+
+		&:last-child{
+			border-right: 1px solid $gold;
+		}
+
+		&:hover{
+			color: $blue;
+		}
+	}
+}
+
+.site-phone{
+	font-size: 24px;
+	transition: color 0.3s ease;
+	line-height: 1;
+	white-space: nowrap;
+}
+//s-top-panel
+
+
+//s-top-nav
+.s-top-nav{
+	background: $blue;
+	color: #FFF;
+	padding: 10px 0;
+	user-select: none;
+
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__logo{
+		flex-shrink: 0;
+
+		img{
+			width: 210px;
+			height: auto;
+			display: block;
+			transition: opacity 0.3s ease;
+			@include res(xl){
+				width: 150px;
+			}
+			@include res(l){
+				width: 100px;
+			}
+
+			&:hover{
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
+.top-nav{
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 80px;
+	@include res(xl) {
+		padding-left: 40px;
+	}
+	@include res(l) {
+		padding-left: 20px;
+	}
+	@include res(m) {
+		position: fixed;
+		z-index: 30;
+		top: 0;
+		right: 0;
+		width: 100%;
+		max-width: 320px;
+		height: 100%;
+		background: $blue;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-end;
+		padding: 70px 15px 15px;
+		transform: translate3d(320px,0,0);
+		transition: transform 0.3s ease;
+		will-change: transform;
+		overflow: auto;
+	}
+	
+	&.opened{
+		transform: none;
+	}
+
+	a{
+		font-family: $font-serif;
+		font-size: 18px;
+		line-height: 1;
+		white-space: nowrap;
+		color: #FFF;
+		transition: color 0.3s ease;
+		padding: 5px;
+		@include res(l){
+			font-size: 14px;
+		}
+		@include res(m){
+			display: block;
+			padding: 15px 0;
+			font-size: 20px;
+		}
+
+		&:hover{
+			color: $gold;
+		}
+
+		&.active{
+			color: $gold;
+		}
+	}
+}
+
+
+//menu-btn
+.menu-btn{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	white-space: nowrap;
+	display: none;
+	user-select: none;
+	position: fixed;
+	z-index: 101;
+	right: 15px;
+	top: 46px;
+	background-color: #FFF;
+	border-radius: 2px;
+	box-shadow: -1px 1px 4px 0 rgba(0,0,0,0.3);
+	transition: top 0.3s ease;
+	@include res(m){
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	figure{
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		width: 24px;
+		height: 3px;
+		background-color: $blue;
+		transition: all 0.3s ease;
+
+		&:before,&:after{
+			content: "";
+			width: 24px;
+			height: 3px;
+			position: absolute;
+			left: 0;
+			background-color: $blue;
+			transition: all 0.3s ease;
+			border-radius: 5px;
+		}
+
+		&:before{
+			top: -8px;
+		}
+
+		&:after{
+			bottom: -8px;
+		}
+	}
+
+	&.active{
+		top: 15px;
+		figure{
+			transform: rotate(45deg);
+
+			&:after{
+				transform: scale(0.5);
+				opacity: 0;
+
+			}
+			&:before{
+				transform: rotate(-90deg);
+				top: 0;
+			}
+		}
+	}
+
+	&.to-top{
+		top: 15px;
+	}
+}
+
+//s-top-nav
+
+
+//s-breadcrumbs
+.s-breadcrumbs{
+	height: 60px;
+	margin-bottom: -60px;
+	z-index: 4;
+	position: relative;
+	font-size: 12px;
+	padding-top: 15px;
+
+	.container{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	a,span{
+		display: block;
+		color: $gold;
+		flex-shrink: 1;
+		transition: color 0.3s ease;
+		position: relative;
+		line-height: 1;
+
+		&:after{
+			content: '\e900';
+			font-family: $font-icons;
+			font-size: 8px;
+			pointer-events: none;
+			margin: 0 5px;
+		}
+
+		&:hover{
+			color: lighten($gold,15%);
+		}
+
+		&:last-child{
+
+			&:after{
+				display: none;
+				pointer-events: none;
+			}
+		}
+	}
+}
+//s-breadcrumbs

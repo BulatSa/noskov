@@ -1,0 +1,59 @@
+.book-intro{
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 40px;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&__img{
+		flex-shrink: 0;
+		width: 120px;
+		height: auto;
+		margin-right: 20px;
+		@include res(xl){
+			width: 80px;
+		}
+		@include res(l){
+			width: 60px;
+		}
+	}
+
+	&__content{
+		flex-shrink: 1;
+	}
+
+	&__title{
+		display: inline-block;
+		@extend %link-blue;
+		margin-bottom: 10px;
+		line-height: 1;
+	}
+
+	.btn{
+		margin-top: 15px;
+	}
+
+	&--wide {
+		max-width: 100%;
+	}
+
+	&--top-bordered {
+		position: relative;
+		margin-top: 45px;
+		padding-top: 35px;
+		@include res(m) {
+			margin-top: 35px;
+			padding-top: 25px;
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 65%;
+			height: 1px;
+			background: #D9D9D9;
+		}
+	}
+}

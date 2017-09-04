@@ -1,0 +1,83 @@
+.page-header--infobase{
+	background: url("../img/head-partret.jpg") center top no-repeat $blue;
+	background-size: cover;
+	@include res(s){
+		background-image: url(../img/head-partret--s.jpg);
+	}
+
+	.page-header__title{
+		margin-left: 50%;
+		font-size: 64px;
+		text-align: left;
+		@include res(xl){
+			font-size: 56px;
+		}
+		@include res(l){
+			font-size: 40px;
+		}
+		@include res(s){
+			margin-left: 0;
+			font-size: 36px;
+		}
+		@include res(xs){
+			font-size: 24px;
+		}
+	}
+}
+
+
+//s-cases-intros
+.s-cases-intros{
+	padding: 80px 0;
+	overflow: hidden;
+	@include res(xl){
+		padding: 60px 0;
+	}
+	@include res(s){
+		padding: 40px 0;
+	}
+}
+
+.center-btn{
+	text-align: center;
+	padding-top: 20px;
+}
+//s-cases-intros
+
+
+//s-analitic-intros
+.s-analitic-intros{
+	background: $blue;
+	color: #FFF;
+	padding: 80px 0;
+	overflow: hidden;
+	@include res(xl){
+		padding: 60px 0;
+	}
+	@include res(s){
+		padding: 40px 0;
+	}
+
+	&__bg{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%,0);
+		height: 90%;
+		width: auto;
+		margin: auto;
+		opacity: 0.08;
+		pointer-events: none;
+		@include res(xs){
+			height: 50%;
+		}
+	}
+
+	.analitic-intro{
+		&__title{
+			@extend %link-gold-white;
+		}
+	}
+}
+//s-analitic-intros

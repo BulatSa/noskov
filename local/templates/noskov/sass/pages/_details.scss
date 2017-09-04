@@ -1,0 +1,139 @@
+.details{
+	.container{
+		max-width: 990px;
+		padding-top: 100px;
+		padding-bottom: 60px;
+		@include res(xl){
+			max-width: 860px;
+			padding-top: 80px;
+		}
+		@include res(l){
+			padding-top: 60px;
+		}
+		@include res(s){
+			padding-top: 50px;
+		}
+	}
+
+	&__title{
+		text-align: center;
+		font-family: $font-serif;
+		font-weight: bold;
+		text-transform: none;
+		font-size: 56px;
+		margin-bottom: 25px;
+		@include res(xl){
+			font-size: 50px;
+		}
+		@include res(l){
+			font-size: 42px;
+		}
+		@include res(s){
+			font-size: 36px;
+		}
+		@include res(xs){
+			font-size: 20px;
+		}
+		&--lefted {
+			text-align: left;
+		}
+	}
+
+	&__meta{
+		font-family: $font-serif;
+		color: $gold;
+		text-align: center;
+		font-size: 32px;
+		margin-bottom: 25px;
+		line-height: 1.2;
+		@include res(xl){
+			font-size: 28px;
+		}
+		@include res(l){
+			font-size: 24px;
+		}
+		@include res(s){
+			font-size: 20px;
+		}
+		@include res(xs){
+			font-size: 18px;
+		}
+	}
+
+	&__acts{
+		margin-top: 40px;
+
+		.h2{
+			margin-bottom: 20px;
+		}
+	}
+
+	&__docs{
+		margin-top: 40px;
+
+		.h2{
+			margin-bottom: 20px;
+		}
+
+		.doc{
+			display: inline-block;
+			vertical-align: top;
+			width: calc(100% / 6);
+			margin-right: -4px;
+			padding: 0 10px;
+			margin-bottom: 20px;
+			text-align: center;
+			@include res(s){
+				width: calc(100% / 3);
+			}
+			@include res(xs){
+				width: 50%;
+			}
+
+			&__icon{
+				width: 66px;
+				height: 66px;
+				transition: all 0.3s ease;
+				@include res(s){
+					width: 40px;
+					height: 40px;
+				}
+			}
+
+			span{
+				margin-top: 5px;
+				display: block;
+				font-size: 14px;
+				transition: all 0.3s ease;
+				line-height: 1.2;
+				@include res(s){
+					font-size: 12px;
+				}
+			}
+
+			&:hover{
+				.doc__icon{
+					transform: translate(0,-5px);
+				}
+				span{
+					color: $gold;
+				}
+			}
+		}
+	}
+
+	&__bottom{
+		margin-top: 60px;
+		text-align: center;
+
+		.h2{
+			text-transform: uppercase;
+			margin-bottom: 20px;
+			font-weight: normal;
+		}
+
+		.btn{
+			margin-top: 40px;
+		}
+	}
+}

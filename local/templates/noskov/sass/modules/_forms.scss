@@ -1,0 +1,146 @@
+label{cursor: pointer;}
+
+input[type="text"],input[type="tel"],input[type="email"],input[type="password"],textarea{
+	display: inline-block;
+	font-family: $font;
+	font-size: 18px;
+	line-height: 1.3;
+	-webkit-appearance: none;
+	border: 1px solid #666;
+	border-radius: 0;
+	padding: 5px 10px;
+	overflow: visible;
+
+	&:focus{
+		outline: none;
+		@include placeholder {
+			opacity: 0;
+		}
+	}
+}
+
+
+//vertical-form
+.vertical-form{
+	text-align: center;
+	
+	input[type="text"],input[type="tel"],input[type="email"],input[type="password"],textarea{
+		display: block;
+		margin-bottom: 25px;
+		font-size: 18px;
+		border: none;
+		border-bottom: 1px solid #d9d9d9;
+		text-align: center;
+		width: 100%;
+		transition: all 0.3s ease;
+
+		@include placeholder {
+			font-size: 18px;
+			color: $gold;
+			font-style: italic;
+			opacity: 1;
+			transition: all 0.3s ease;
+		}
+
+		&:hover{
+			border-color: $gold;
+		}
+
+		&:focus{
+			outline: none;
+			border-color: $gold;
+			@include placeholder {
+				opacity: 0;
+			}
+		}
+
+		&.error{
+			border-color: #bd2626;
+			background: #fde0e0;
+		}
+	}
+
+	.btn{
+		margin-top: 15px;
+	}
+}
+//vertical-form
+
+
+
+//style-checkbox
+.style-checkbox{
+	display: block;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 1.4;
+	@include res(xs){
+		font-size: 12px;
+	}
+
+	input{
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		top: 0;
+
+		&:checked + span{
+			&:after{
+				opacity: 1;
+			}
+		}
+
+		&.error + span{
+			&:before{
+				border-color: #bd2626;
+				background: #fde0e0;
+			}
+		}
+	}
+
+	span{
+		display: block;
+		position: relative;
+		padding-left: 30px;
+		text-align: left;
+		color: #000;
+
+		&:before{
+			content: '';
+			width: 20px;
+			height: 20px;
+			border: 1px solid $gold;
+			position: absolute;
+			left: 0;
+			top: 0;
+			transition: all 0.3s ease;
+		}
+
+		&:after{
+			content: '';
+			width: 14px;
+			height: 14px;
+			background: $gold;
+			position: absolute;
+			left: 3px;
+			top: 3px;
+			z-index: 2;
+			opacity: 0;
+			transition: opacity 0.3s ease;
+		}
+
+		a{
+			color: $blue;
+			border-bottom: 1px solid currentcolor;
+			font-weight: bold;
+			transition: all 0.3s ease;
+
+			&:hover{
+				color: $gold;
+			}
+		}
+	}
+}
+//style-checkbox

@@ -1,0 +1,17 @@
+%link-blue{
+	color: $blue;
+	transition: color 0.3s ease;
+
+	&:hover{
+		color: $gold;
+	}
+}
+
+%link-gold-white{
+	color: $gold;
+	transition: color 0.3s ease;
+
+	&:hover{
+		color: #FFF;
+	}
+}

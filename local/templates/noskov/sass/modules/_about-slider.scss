@@ -1,0 +1,145 @@
+.s-about-slider {
+	padding-bottom: 80px;
+	background: #F6F6F6;
+	z-index: 2;
+	@include res(xl) {
+		padding-bottom: 60px;
+	}
+	@include res(s) {
+		padding-bottom: 40px;
+	}
+}
+
+.about-slider {}
+
+.about-slide {
+	width: 75%;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	@include res(m) {
+		width: 80%;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		max-height: 740px;
+		margin: 0 auto;
+		@include res(xl) {
+			max-height: 650px;
+		}
+		@include res(l) {
+			max-height: 460px;
+		}
+		@include res(m) {
+			max-height: 345px;
+		}
+		@include res(s) {
+			max-height: 305px;
+		}
+		@include res(xs) {
+			max-height: 200px;
+		}
+		@include res(xxs) {
+			max-height: 160px;
+		}
+	}
+	span {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: block;
+		max-width: 720px;
+		margin: 25px auto 0;
+		font-size: 18px;
+		text-align: center;
+		opacity: 0;
+		
+		@include res(l) {
+			font-size: 16px;
+		}
+		@include res(s) {
+			font-size: 14px;
+		}
+	}
+}
+
+.about-slider-descr {
+	display: block;
+	max-width: 720px;
+	margin: 25px auto 25px;
+	//height: 0;
+	font-size: 18px;
+	text-align: center;
+	opacity: 0;
+	transition: height 0.3s ease-in-out;
+	@include res(xl){
+		font-size: 16px;
+	}
+	@include res(l){
+		font-size: 14px;
+	}
+	&.active {
+		opacity: 1;
+		transition: all 0.3s ease-in-out;
+	}
+}
+
+.flickity-viewport {
+	transition: height 0.3s ease;
+}
+
+.flickity-prev-next-button {
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	@include res(l) {
+		width: 90px;
+		height: 90px;
+	}
+	@include res(m) {
+		width: 80px;
+		height: 80px;
+	}
+	@include res(s) {
+		width: 70px;
+		height: 70px;
+	}
+	@include res(xs) {
+		width: 60px;
+		height: 60px;
+	}
+	&:hover {
+		background: transparent;
+		.arrow {
+			fill: $gold;
+		}
+	}
+	&.next {
+		@include res(s) {
+			right: 0;
+		}
+	}
+	&.previous {
+		@include res(s) {
+			left: 0;
+		}
+	}
+
+}
+
+.flickity-prev-next-button svg {
+	left: 15%;
+	top: 15%;
+	width: 70%;
+	height: 70%;
+	.arrow {
+		transition: all 0.3s ease;
+		fill: #fff;
+	}
+}

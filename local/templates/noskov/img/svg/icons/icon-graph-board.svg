@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 101 93" style="enable-background:new 0 0 101 93;" xml:space="preserve" width="101" height="93">
+<style type="text/css">
+	.st0{fill:none;stroke:#D1B36C;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#D1B36C;}
+	.st2{fill:none;stroke:#D1B36C;stroke-width:3;}
+	.st3{fill:none;stroke:#D1B36C;stroke-miterlimit:10;}
+</style>
+<title>icon-graph-board</title>
+<line class="st0" x1="14.5" y1="15" x2="14.5" y2="5"/>
+<line class="st0" x1="96.5" y1="5" x2="96.5" y2="54"/>
+<polyline class="st0" points="26,59.5 98.5,59.5 98.5,54.5 26,54.5 "/>
+<rect x="12.5" y="1.5" class="st0" width="87" height="5"/>
+<line class="st0" x1="55.5" y1="60" x2="55.5" y2="72"/>
+<g>
+	<line class="st0" x1="45.8" y1="59.5" x2="38.5" y2="71.8"/>
+	<line class="st0" x1="65.4" y1="59.5" x2="72.8" y2="71.8"/>
+</g>
+<g>
+	<path class="st1" d="M53,43v3h-7v-3H53 M56,40H43v9h13V40z"/>
+	<path class="st1" d="M70,33v13h-7V33H70 M73,30H60v19h13V30z"/>
+	<path class="st1" d="M86,20v26h-7V20H86 M89,17H76v32h13V17z"/>
+</g>
+<path class="st2" d="M25,36.5h28.4v-1.3c0-2.4-1.9-5.7-4.2-5.7H23.9c-0.5,0-12.9,0.1-18.3,1.8c-2.4,0.9-4,3.2-4.1,5.8v26.2
+	c0,2.3,4.3,4.3,6.6,4.3"/>
+<circle class="st3" cx="18" cy="21.8" r="8.2"/>
+<g>
+	<line class="st3" x1="9.5" y1="40" x2="9.5" y2="92"/>
+	<line class="st3" x1="26.5" y1="40" x2="26.5" y2="92"/>
+</g>
+<line class="st3" x1="18.5" y1="65" x2="18.5" y2="92"/>
+<circle class="st2" cx="18" cy="21.8" r="8.2"/>
+<polyline class="st2" points="9.5,39 9.5,91.5 26.5,91.5 26.5,35 "/>
+<line class="st2" x1="18.5" y1="65" x2="18.5" y2="92"/>
+<line class="st2" x1="33" y1="15.5" x2="61" y2="15.5"/>
+<line class="st2" x1="33" y1="22.5" x2="61" y2="22.5"/>
+</svg>

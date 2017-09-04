@@ -1,0 +1,140 @@
+.s-contact-info {
+	padding: 80px 0;
+	z-index: 2;
+	@include res(xl) {
+		padding: 60px 0;
+	}
+	@include res(s) {
+		padding: 40px 0;
+	}
+	.container {
+		overflow: hidden;
+	}
+}
+
+.contact-info {
+	//margin: 0 auto;
+}
+
+.contact-info__column {
+	&:first-child {
+		.title-lines {
+			padding-left: 30%;
+			@include res(l) {
+				padding-left: 20px;
+			}
+			&:after {
+				left: 30%;
+				@include res(l) {
+					left: 20px;
+				}
+			}
+		}
+		.contact-info__content {
+			margin-left: 30%;
+			padding-left: 0;
+			@include res(l) {
+				margin-left: 20px;
+			}
+			@include res(xxs) {
+				margin-left: 0px;
+			}
+		}
+	}
+}
+
+.contact-info__content {
+	max-width: 520px;
+	padding-left: 20px;
+	@include res(xxs) {
+		padding-left: 0px;
+	}
+}
+
+.contact-info__content-column {
+	width: 50%;
+	padding-right: 40px;
+	@include res(xl) {
+		padding-right: 30px;
+	}
+	@include res(xxs) {
+		width: 100%;
+		padding-right: 0;
+	}
+}
+
+.contact-info__content-callback {
+	padding-bottom: 35px;
+	@include res(xxs) {
+		padding-bottom: 20px;
+	}
+}
+
+.contact-info__content-title {
+	display: block;
+	font-size: 18px;
+	@include res(m) {
+		font-size: 16px;
+	}
+}
+
+.contact-info__content-phone {
+	font-size: 24px;
+	color: #000;
+	transition: color 0.3s ease;
+	@include res(xl) {
+		font-size: 22px;
+	}
+	@include res(l) {
+		font-size: 20px;
+	}
+	@include res(m) {
+		font-size: 16px;
+	}
+	&:hover {
+		color: $gold;
+	}
+}
+
+.contact-info__content-email {
+	font-size: 24px;
+	color: $blue;
+	border-bottom: 1px solid $blue;
+	transition: all 0.3s ease;
+	@include res(xl) {
+		font-size: 22px;
+	}
+	@include res(l) {
+		font-size: 20px;
+	}
+	@include res(m) {
+		font-size: 16px;
+	}
+	&:hover {
+		color: $gold;
+		border-color: transparent;
+	}
+}
+
+.contact-info__content-link {
+	&:hover {
+		i, span {
+			color: $gold;
+			border-color: transparent;
+		}
+	}
+	i, span {
+		color: $blue;
+		vertical-align: middle;
+		transition: all 0.3s ease;
+	}
+	i {
+		display: inline-block;
+		width: 15px;
+		text-align: center;
+	}
+	span {
+		margin-left: 5px;
+		border-bottom: 1px solid $blue;
+	}
+}

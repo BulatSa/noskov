@@ -1,0 +1,108 @@
+.s-order{
+	background: url("../img/pattern-grey.png") center top repeat #f6f6f6;
+	padding: 110px 0;
+	@include res(l){
+		padding: 90px 0;
+	}
+	@include res(m){
+		padding: 60px 0;
+	}
+
+	.container{
+		text-align: right;
+		max-width: 990px;
+		position: relative;
+		@include res(m){
+			text-align: center;
+		}
+	}
+
+	&__man{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		z-index: 2;
+		transform: translate(-700px,0);
+		pointer-events: none;
+		max-height: 95%;
+		width: auto;
+		@include res(l){
+			max-height: 80%;
+			transform: translate(-620px,0);
+		}
+		@include res(m){
+			display: none;
+		}
+	}
+}
+
+.order-block{
+	display: inline-block;
+	background: #FFF;
+	padding: 50px 35px 70px 35px;
+	text-align: center;
+	max-width: 580px;
+	box-shadow: 0 7px 22px 0 rgba(0,0,0,0.05);
+	@include res(xs){
+		padding: 35px 20px;
+	}
+
+	&__title{
+		font-family: $font-serif;
+		font-weight: bold;
+		color: $blue;
+		font-size: 36px;
+		line-height: 1;
+		margin-bottom: 20px;
+		@include res(xs){
+			font-size: 26px;
+		}
+	}
+
+	&__subtitle{
+		color: $blue;
+		position: relative;
+		padding-bottom: 35px;
+		margin-bottom: 45px;
+		@include res(xs){
+			padding-bottom: 20px;
+			margin-bottom: 25px;
+		}
+
+		&:before{
+			content: '';
+			width: 100%;
+			height: 1px;
+			background: #d9d9d9;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+
+		&:after{
+			content: '';
+			width: 170px;
+			height: 5px;
+			background: $gold;
+			position: absolute;
+			bottom: -2px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+
+	form{
+		max-width: 285px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&--mini {
+		padding: 50px 35px 35px 35px;
+		.order-block__subtitle {
+			padding-bottom: 30px;
+			margin-bottom: 40px;
+		}
+	}
+}

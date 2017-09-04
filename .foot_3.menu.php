@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Книги",
+		"/infobase/books/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Публикации",
+		"/infobase/publications/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Статьи",
+		"/infobase/articles/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>

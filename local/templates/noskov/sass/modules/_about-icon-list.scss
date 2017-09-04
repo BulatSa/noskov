@@ -1,0 +1,60 @@
+.about-icon-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	@include res(l) {
+		padding-top: 20px;
+	}
+	@include res(m) {
+		padding-bottom: 30px;
+	}
+	@include res(s) {
+		padding-top: 15px;
+		padding-bottom: 0px;
+	}
+}
+
+.about-icon-list__item {
+	display: flex;
+	align-items: flex-start;
+	padding-bottom: 10px;
+}
+
+.about-icon-list__item-img {
+	width: 85px;
+	padding-right: 25px;
+	flex-shrink: 0;
+	@include res(l) {
+		width: 75px;
+	}
+	@include res(m) {
+		width: 70px;
+	}
+	@include res(s) {
+		width: 60px;
+	}
+	@include res(xs) {
+		width: 50px;
+	}
+	img {
+		display: block;
+		max-width: 60px;
+		max-height: 65px;
+		margin: 10px auto 0;
+		@include res(l) {
+			max-width: 55px;
+			max-height: 55px;
+		}
+		@include res(m) {
+			max-width: 50px;
+			max-height: 50px;
+		}
+		@include res(s) {
+			max-width: 40px;
+			max-height: 40px;
+		}
+		@include res(xs) {
+			max-width: 35px;
+		}
+	}
+}
