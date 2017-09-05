@@ -75,7 +75,7 @@ $APPLICATION->SetTitle("Об адвокате");
 						"PARENT_SECTION_CODE" => "",
 						"PREVIEW_TRUNCATE_LEN" => "",
 						"PROPERTY_CODE" => array(
-							0 => "",
+							0 => "LINK",
 							1 => "",
 							2 => "",
 						),
