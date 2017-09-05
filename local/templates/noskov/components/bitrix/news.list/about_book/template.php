@@ -26,7 +26,7 @@ $this->setFrameMode(true);
 			<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="<?=$arItem["NAME"];?>" class="book-intro__img">
 		<? endif; ?>
 		<div class="book-intro__content">
-			<a href="#" class="book-intro__title fancy" data-src="#modal-book-<?=$arItem["ID"]?>" rel="nofollow"><h3 class="h3"><?=$arItem["NAME"];?></h3></a>
+			<a href="<?=$arItem["PROPERTIES"]["LINK"]["VALUE"]?>" class="book-intro__title" rel="nofollow"><h3 class="h3"><?=$arItem["NAME"];?></h3></a>
 			<div class="book-intro__preview">
 				<?=$arItem["PREVIEW_TEXT"];?>
 			</div>
