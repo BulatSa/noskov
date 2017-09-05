@@ -19,7 +19,9 @@ $this->setFrameMode(true);
 		<h1 class="details__title"><?=$arResult["NAME"]?></h1>
 		<div class="details__meta">
 			<time datetime="<?=FormatDate("Y-m-d", MakeTimeStamp($arResult["DISPLAY_ACTIVE_FROM"]))?>"><?=$arResult["DISPLAY_ACTIVE_FROM"]?></time>
-			/ <span>номер дела</span>
+			<? if (!empty($arResult["PROPERTIES"]["CASENUMBER"]["VALUE"])) : ?>
+				/ <span><?=$arResult["PROPERTIES"]["CASENUMBER"]["VALUE"]?></span>
+			<? endif; ?>
 		</div>
 
 		<div class="details__content user-content">

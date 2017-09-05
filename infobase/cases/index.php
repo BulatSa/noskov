@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Завершенные проекты");
 		"DETAIL_PAGER_TEMPLATE" => "",
 		"DETAIL_PAGER_TITLE" => "Страница",
 		"DETAIL_PROPERTY_CODE" => array(
-			0 => "",
+			0 => "CASENUMBER",
 			1 => "DOCS",
 			2 => "",
 		),
