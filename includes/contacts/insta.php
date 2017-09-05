@@ -1,1 +1,1 @@
-vk.com/name
+https://instagram.com/advokatnoskov/

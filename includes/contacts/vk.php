@@ -1,1 +1,1 @@
-vk.com/name
+https://vk.com/advokatnoskov

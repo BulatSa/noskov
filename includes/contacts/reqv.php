@@ -1,1 +1,2 @@
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus vero, amet deleniti, quibusdam alias ullam quod, reprehenderit eius at hic quia, quam distinctio optio cupiditate. Distinctio sequi, saepe ab quia.
+Межреспубликанская коллегия адвокатов (г. Москва)
+109469, г. Москва, ул. Братиславская, д. 34, корп. 2

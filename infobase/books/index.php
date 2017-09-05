@@ -61,7 +61,7 @@ $APPLICATION->SetTitle("Мои книги");
 		"PROPERTY_CODE" => array(
 			0 => "GREY_TEXT",
 			1 => "SCREENS",
-			2 => "",
+			2 => "LINK",
 		),
 		"SET_BROWSER_TITLE" => "N",
 		"SET_LAST_MODIFIED" => "N",

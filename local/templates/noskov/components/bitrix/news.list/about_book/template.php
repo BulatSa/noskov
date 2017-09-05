@@ -30,7 +30,7 @@ $this->setFrameMode(true);
 			<div class="book-intro__preview">
 				<?=$arItem["PREVIEW_TEXT"];?>
 			</div>
-			<a href="#" class="btn fancy" data-src="#modal-book-<?=$arItem["ID"]?>" rel="nofollow">заказать <i class="i-ar-right"></i></a>
+			<a href="<?=$arItem["PROPERTIES"]["LINK"]["VALUE"]?>" class="btn" rel="nofollow">заказать <i class="i-ar-right"></i></a>
 		</div>
 	</div>
 

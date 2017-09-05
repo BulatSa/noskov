@@ -47,7 +47,7 @@ $this->setFrameMode(true);
 									<? endforeach; ?>
 								</div>
 							<? endif; ?>
-							<a href="#" class="btn fancy" data-src="#modal-book-<?=$arItem["ID"]?>">заказать <i class="i-ar-right"></i></a>
+							<a href="<?=$arItem["PROPERTIES"]["LINK"]["VALUE"]?>" class="btn">заказать <i class="i-ar-right"></i></a>
 						</div>
 
 					</div>
