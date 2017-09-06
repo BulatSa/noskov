@@ -2892,7 +2892,7 @@ button::-moz-focus-inner {
 }
 
 .s-site-footer {
-  background: url("../../img/pattern-blue.png") center top repeat #232780;
+  background: url("../img/pattern-blue.png") center top repeat #232780;
   color: #FFF;
   padding: 30px 0 70px 0;
 }
