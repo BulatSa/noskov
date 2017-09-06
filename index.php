@@ -164,7 +164,7 @@ $APPLICATION->SetTitle("Носков Игорь - адвокат");
 				<a href="/disputs/money/" class="disput">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/disputs/4.jpg" alt="2" class="disput__img">
 					<div class="disput__info">
-						<p class="h4">Споры в сфере займа</p>
+						<p class="h4">Споры в сфере денежных обязательств</p>
 						<i class="i-right"></i>
 					</div>
 				</a>

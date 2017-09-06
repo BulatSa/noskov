@@ -37,7 +37,7 @@ $this->setFrameMode(true);
 							<? endif; ?>
 							<? if (!empty($arItem["PROPERTIES"]["SCREENS"]["VALUE"])) : ?>
 								<div class="books__info-chapters">
-									<p><span>Глава из книги</span></p>
+									<p><span>Оглавление</span></p>
 									<? foreach ($arItem["PROPERTIES"]["SCREENS"]["VALUE"] as $scren_id) : ?>
 										<?
 										$screen_s = CFile::ResizeImageGet($scren_id, array("width" => 180, "height" => 180), BX_RESIZE_IMAGE_PROPORTIONAL, true);
@@ -71,7 +71,7 @@ $this->setFrameMode(true);
 					<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
 					<label class="style-checkbox">
 						<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
-						<span>Я согласен с <a href="#" target="_blank" rel="nofollow">условиями обработки персональных данных</a></span>
+						<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки персональных данных</a></span>
 					</label>
 					<input type="hidden" value="Заявка на книгу '<?=$arItem["NAME"]?>'" name="form_subject">
 					<button type="submit" class="btn">Отправить</button>

@@ -225,10 +225,10 @@ $APPLICATION->SetTitle("Иные споры");
 	"PATH" => "/includes/order_small_section.php"
 ));?>
 
-
+<!--
 <section class="s-solutions">
 	<div class="container">
-		<p class="h1 title-lines">Часто возникающие проблемы</p>
+		<p class="h1 title-lines">Часто задаваемые вопросы</p>
 
 		<?$APPLICATION->IncludeComponent(
 			"bitrix:news.list",
@@ -303,6 +303,6 @@ $APPLICATION->SetTitle("Иные споры");
 		</div>
 	</div>
 </section>
-
+-->
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -133,7 +133,7 @@
 		</nav>
 
 		<div class="foot-bottom">
-			<div class="foot-bottom__policy">Все права защищены, 2017<br><a href="#">Политика конфиденциальности</a></div>
+			<div class="foot-bottom__policy">Все права защищены, 2017<br><a href="/upload/policy.docx" target="_blank" download>Политика конфиденциальности</a></div>
 			<a href="https://penbrain.ru" target="_blank" class="penbrain"><img src="<?=SITE_TEMPLATE_PATH?>/img/penbrain.svg" alt="Pen&Brain"></a>
 		</div>
 
@@ -152,7 +152,7 @@
 			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
 			<label class="style-checkbox">
 				<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
-				<span>Я согласен с <a href="#" target="_blank" rel="nofollow">условиями обработки персональных данных</a></span>
+				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки персональных данных</a></span>
 			</label>
 			<input type="hidden" value="Заказ обртаного звонка" name="form_subject">
 			<button type="submit" class="btn">Отправить</button>
@@ -168,7 +168,7 @@
 			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
 			<label class="style-checkbox">
 				<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
-				<span>Я согласен с <a href="#" target="_blank" rel="nofollow">условиями обработки персональных данных</a></span>
+				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки персональных данных</a></span>
 			</label>
 			<input type="hidden" value="Новая заявка" name="form_subject">
 			<button type="submit" class="btn">Отправить</button>

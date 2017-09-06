@@ -228,7 +228,7 @@ $APPLICATION->SetTitle("Споры в сфере банкротства");
 
 <section class="s-solutions">
 	<div class="container">
-		<p class="h1 title-lines">Часто возникающие проблемы</p>
+		<p class="h1 title-lines">Часто задаваемые вопросы</p>
 
 		<?$APPLICATION->IncludeComponent(
 			"bitrix:news.list",

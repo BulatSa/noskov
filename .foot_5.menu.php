@@ -1,7 +1,7 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Споры в сфере займа",
+		"Споры в сфере денежных обязательств",
 		"/disputs/money/",
 		Array(),
 		Array(),
