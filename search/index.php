@@ -6,7 +6,7 @@ $APPLICATION->SetTitle("Результаты посика");
 
 <?$APPLICATION->IncludeComponent(
 	"bitrix:search.page", 
-	"search_page",
+	"search_page", 
 	array(
 		"AJAX_MODE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
@@ -22,7 +22,7 @@ $APPLICATION->SetTitle("Результаты посика");
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
 		"FILTER_NAME" => "",
-		"NO_WORD_LOGIC" => "N",
+		"NO_WORD_LOGIC" => "Y",
 		"PAGER_SHOW_ALWAYS" => "N",
 		"PAGER_TEMPLATE" => "pagination",
 		"PAGER_TITLE" => "Результаты поиска",
