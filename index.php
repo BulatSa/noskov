@@ -135,7 +135,7 @@ $APPLICATION->SetTitle("Носков Игорь - адвокат");
 		<div class="row-ng disput-list">
 			<div class="grid-4 grid-6_m grid-12_xs">
 				<a href="/disputs/podrjad/" class="disput">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/disputs/2.jpg" alt="2" class="disput__img">
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/disputs/1.jpg" alt="1" class="disput__img">
 					<div class="disput__info">
 						<p class="h4">Споры в сфере подряда</p>
 						<i class="i-right"></i>

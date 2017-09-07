@@ -204,17 +204,25 @@ $APPLICATION->SetTitle("Споры в сфере денежных обязате
 					</div>
 				</div>
 
-				<!--<div class="details__docs">
+				<div class="details__docs">
 					<p class="lead-gold">Необходимые документы</p>
-					<a href="#" class="doc" target="_blank" rel="nofollow" download>
-						<img src="<?/*=SITE_TEMPLATE_PATH*/?>/img/doc.svg" alt="doc" class="doc__icon">
-						<span>Название документа</span>
-					</a>
-					<a href="#" class="doc" target="_blank" rel="nofollow" download>
-						<img src="<?/*=SITE_TEMPLATE_PATH*/?>/img/doc.svg" alt="doc" class="doc__icon">
-						<span>Название документа из трех слов</span>
-					</a>
-				</div>-->
+					<div class="doc">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/doc.svg" alt="doc" class="doc__icon">
+						<span>Договор займа/поручительства</span>
+					</div>
+					<div class="doc">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/doc.svg" alt="doc" class="doc__icon">
+						<span>Переписка сторон договора</span>
+					</div>
+					<div class="doc">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/doc.svg" alt="doc" class="doc__icon">
+						<span>Документы, подтверждающие претензии</span>
+					</div>
+					<div class="doc">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/doc.svg" alt="doc" class="doc__icon">
+						<span>Иная документация</span>
+					</div>
+				</div>
 
 			</div>
 		</div>
