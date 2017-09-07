@@ -5021,6 +5021,12 @@ button::-moz-focus-inner {
   overflow: hidden;
 }
 
+@media (max-width: 1024px) {
+  .contact-info__column:first-child {
+    margin-bottom: 20px;
+  }
+}
+
 .contact-info__column:first-child .title-lines {
   padding-left: 30%;
 }
@@ -5080,7 +5086,7 @@ button::-moz-focus-inner {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 768px) {
   .contact-info__content-column {
     width: 100%;
     padding-right: 0;

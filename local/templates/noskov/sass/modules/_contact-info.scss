@@ -18,6 +18,9 @@
 
 .contact-info__column {
 	&:first-child {
+		@include res(l){
+			margin-bottom: 20px;
+		}
 		.title-lines {
 			padding-left: 30%;
 			@include res(l) {
@@ -57,7 +60,7 @@
 	@include res(xl) {
 		padding-right: 30px;
 	}
-	@include res(xxs) {
+	@include res(m) {
 		width: 100%;
 		padding-right: 0;
 	}

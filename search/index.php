@@ -3,9 +3,10 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Результаты посика");
 ?>
 
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:search.page", 
-	"search_page", 
+	"search_page",
 	array(
 		"AJAX_MODE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
@@ -54,5 +55,6 @@ $APPLICATION->SetTitle("Результаты посика");
 	),
 	false
 );?>
+
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

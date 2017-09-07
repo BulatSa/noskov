@@ -35,7 +35,7 @@ $APPLICATION->SetTitle("Контакты");
 	<div class="container">
 		<div class="row contact-info">
 
-			<div class="grid-6 grid-12_s contact-info__column ">
+			<div class="grid-7 grid-12_l contact-info__column ">
 				<p class="h1 title-lines title-lines--lefted">КОНТАКТЫ</p>
 				<div class="row contact-info__content">
 					<div class="contact-info__content-column">
@@ -83,7 +83,7 @@ $APPLICATION->SetTitle("Контакты");
 				</div>
 			</div>
 
-			<div class="grid-6 grid-12_s contact-info__column ">
+			<div class="grid-5 grid-12_l contact-info__column ">
 				<p class="h1 title-lines title-lines--lefted">Реквизиты</p>
 				<div class="contact-info__content">
 					<div class="user-content">
