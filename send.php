@@ -19,8 +19,9 @@ foreach ($_POST as $input_name => $input_val) {
 require_once('class.phpmailer.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
-$mail->setFrom('no-reply@mail.ru', 'Имя От Кого');
-$mail->addAddress('andreiduffy@gmail.com');
+$mail->setFrom('no-reply@noskov.ru', 'Сайт noskov.ru');
+//$mail->addAddress('andreiduffy@gmail.com');
+$mail->addAddress('info@noskov.ru');
 $mail->isHTML(true);
 $mail->Subject = $subject;
 $mail->Body = $message;
