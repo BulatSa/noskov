@@ -405,8 +405,8 @@ Circles home END
 ***************************************************/
 	$(document).ready(function(){
 		if ($('.solutions-item__title').length){
-			$('.solutions-item__title').on('click touchstart', function(event) {
-				var this_faq = $(this).closest('.solutions-item');
+			$('.solutions-item__title').on('click', function(event) {
+				var this_faq = $(this).parent('.solutions-item');
 				if (this_faq.hasClass('active')) {
 					this_faq.removeClass('active')
 				} else {
@@ -415,9 +415,9 @@ Circles home END
 				}
 			});
 
-			$(document).mouseup(function (e) {
-				var container = $(".solutions-list");
-				if (container.has(e.target).length === 0){
+			$(document).on('click touchstart',function (e){
+				var div = $(".solutions-list");
+				if (!div.is(e.target) && div.has(e.target).length === 0){
 					$('.solutions-item').removeClass('active');
 				}
 			});
