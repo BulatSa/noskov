@@ -9,7 +9,13 @@
 	}
 
 	.details__docs .doc{
-		width: calc(100% / 5);
+		width: calc(100% / 4);
+		@include res(l){
+			width: calc(100% / 3);
+		}
+		@include res(m){
+			width: calc(100% / 4);
+		}
 		@include res(s){
 			width: calc(100% / 3);
 		}

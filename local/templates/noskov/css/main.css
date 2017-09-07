@@ -4907,7 +4907,19 @@ button::-moz-focus-inner {
 }
 
 .s-disput-order .details__docs .doc {
-  width: calc(100% / 5);
+  width: calc(100% / 4);
+}
+
+@media (max-width: 1024px) {
+  .s-disput-order .details__docs .doc {
+    width: calc(100% / 3);
+  }
+}
+
+@media (max-width: 768px) {
+  .s-disput-order .details__docs .doc {
+    width: calc(100% / 4);
+  }
 }
 
 @media (max-width: 680px) {

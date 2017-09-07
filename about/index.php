@@ -182,24 +182,24 @@ $APPLICATION->SetTitle("Об адвокате");
 							<p>Сфера подряда</p>
 						</div>
 						<div class="about-stat__info-item">
-							<span>14%</span>
-							<p>Сфера недвижимости</p>
+							<span>19%</span>
+							<p>Сфера денежных обязательств</p>
 						</div>
 						<div class="about-stat__info-item">
 							<span>18%</span>
 							<p>Сфера оказания услуг и торговли</p>
 						</div>
 						<div class="about-stat__info-item">
-							<span>19%</span>
-							<p>Сфера денежных обязательств</p>
-						</div>
-						<div class="about-stat__info-item">
-							<span>11%</span>
-							<p>Сфера банкротства</p>
+							<span>14%</span>
+							<p>Сфера недвижимости</p>
 						</div>
 						<div class="about-stat__info-item">
 							<span>12%</span>
 							<p>Иные сферы</p>
+						</div>
+						<div class="about-stat__info-item">
+							<span>11%</span>
+							<p>Сфера банкротства</p>
 						</div>
 					</div>
 				</div>
