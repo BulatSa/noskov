@@ -17,6 +17,9 @@ $this->setFrameMode(true);
 <section class="details">
 	<div class="container">
 		<h1 class="details__title"><?=$arResult["NAME"]?></h1>
+		<div class="details__meta">
+			<time datetime="<?=FormatDate("Y-m-d", MakeTimeStamp($arResult["DISPLAY_ACTIVE_FROM"]))?>"><?=$arResult["DISPLAY_ACTIVE_FROM"]?></time>
+		</div>
 
 		<div class="details__content user-content">
 			<?=$arResult["DETAIL_TEXT"]?>
