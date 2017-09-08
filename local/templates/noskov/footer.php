@@ -152,7 +152,7 @@
 			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
 			<label class="style-checkbox">
 				<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
-				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки персональных данных</a></span>
+				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки</a> персональных данных</span>
 			</label>
 			<input type="hidden" value="Заказ обртаного звонка" name="form_subject">
 			<button type="submit" class="btn">Отправить</button>
@@ -168,7 +168,7 @@
 			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
 			<label class="style-checkbox">
 				<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
-				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки персональных данных</a></span>
+				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки</a> персональных данных</span>
 			</label>
 			<input type="hidden" value="Новая заявка" name="form_subject">
 			<button type="submit" class="btn">Отправить</button>
