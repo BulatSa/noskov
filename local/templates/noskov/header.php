@@ -18,7 +18,7 @@
 	<meta property="og:title" content="<?$APPLICATION->ShowTitle()?>">
 	<meta property="og:description" content='<?=$APPLICATION->ShowProperty("description");?>'/>
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content='<?=$APPLICATION->ShowProperty("ogimage",$_SERVER['HTTP_HOST'].SITE_TEMPLATE_PATH."/img/og.jpg");?>' />
+	<meta property="og:image" content='<?=$APPLICATION->ShowProperty("ogimage",$_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST'].SITE_TEMPLATE_PATH."/img/og.jpg");?>' />
 	<!-- og -->
 
 	<!--fav-->
