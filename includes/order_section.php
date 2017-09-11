@@ -12,7 +12,7 @@
 				<input type="hidden" value="Новая заявка" name="form_subject">
 				<label class="style-checkbox">
 					<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
-					<span>Я согласен с <a href="#" target="_blank" rel="nofollow">условиями обработки персональных данных</a></span>
+					<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow">условиями обработки персональных данных</a></span>
 				</label>
 				<button type="submit" class="btn">Оставить заявку</button>
 			</form>
