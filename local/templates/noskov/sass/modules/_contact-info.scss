@@ -64,6 +64,9 @@
 		width: 100%;
 		padding-right: 0;
 	}
+	&:last-child {
+		padding-right: 0;
+	}
 }
 
 .contact-info__content-callback {
@@ -120,6 +123,7 @@
 }
 
 .contact-info__content-link {
+	white-space: nowrap;
 	&:hover {
 		i, span {
 			color: $gold;
@@ -134,10 +138,15 @@
 	i {
 		display: inline-block;
 		width: 15px;
+		font-size: 16px;
 		text-align: center;
 	}
 	span {
 		margin-left: 5px;
+		font-size: 16px;
 		border-bottom: 1px solid $blue;
+		@include res(xl) {
+			font-size: 14px;
+		}
 	}
 }
