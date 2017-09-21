@@ -34,3 +34,4 @@ Disallow: /*back_url_admin=
 Disallow: /*?utm_source=
 Disallow: /*?bxajaxid=
 Disallow: /*&bxajaxid=
+Sitemap: https://noskov.ru/sitemap.xml

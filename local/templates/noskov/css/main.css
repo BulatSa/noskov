@@ -3668,6 +3668,14 @@ button::-moz-focus-inner {
   z-index: 2;
 }
 
+.page-header--reviews {
+  background: url("../img/pattern-reviews.png") center top repeat #232780;
+}
+
+.page-header--price {
+  background: url("../img/pattern-price.png") center top repeat #232780;
+}
+
 .page-header__title-wrap {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -7089,4 +7097,44 @@ button::-moz-focus-inner {
 
 .s-search-page .search-item h4 a:hover {
   color: #d1b36c;
+}
+
+.s-price .container {
+  max-width: 990px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.user-content table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-content table td, .user-content table th {
+  padding: 10px 16px;
+  vertical-align: top;
+  border: 1px solid #d1b36c;
+  line-height: 1.2;
+}
+
+@media (max-width: 680px) {
+  .user-content table td, .user-content table th {
+    padding: 8px 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-content table td, .user-content table th {
+    padding: 6px 4px;
+    font-size: 10px;
+  }
+}
+
+.user-content table th {
+  font-weight: bold;
+  background: #d1b36c;
+  color: #FFF;
 }

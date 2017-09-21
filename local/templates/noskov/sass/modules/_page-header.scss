@@ -255,6 +255,14 @@
 			z-index: 2;
 		}
 	}
+
+	&--reviews{
+		background: url("../img/pattern-reviews.png") center top repeat $blue;
+	}
+
+	&--price{
+		background: url("../img/pattern-price.png") center top repeat $blue;
+	}
 }
 
 .page-header__title-wrap {

@@ -1,0 +1,39 @@
+.s-price{
+
+	.container{
+		max-width: 990px;
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+}
+
+
+.user-content{
+	table{
+		width: 100%;
+		text-align: left;
+		border-collapse: collapse;
+		margin-bottom: 20px;
+
+		td,th{
+			padding: 10px 16px;
+			vertical-align: top;
+			border: 1px solid $gold;
+			line-height: 1.2;
+			@include res(s){
+				padding: 8px 8px;
+				font-size: 12px;
+			}
+			@include res(xs){
+				padding: 6px 4px;
+				font-size: 10px;
+			}
+		}
+
+		th{
+			font-weight: bold;
+			background: $gold;
+			color: #FFF;
+		}
+	}
+}
