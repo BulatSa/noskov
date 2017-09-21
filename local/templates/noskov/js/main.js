@@ -87,7 +87,20 @@ function init_fancy() {
 		transitionEffect : "slide",
 		autoFocus : false,
 		backFocus : false,
-		animationDuration : 400
+		animationDuration : 400,
+		lang : 'ru',
+		i18n : {
+			'ru' : {
+				CLOSE       : 'Закрыть',
+				NEXT        : 'Дальше',
+				PREV        : 'Назад',
+				ERROR       : 'Не удается загрузить. <br/> Попробуйте позднее.',
+				PLAY_START  : 'Начать слайдшоу',
+				PLAY_STOP   : 'Остановить слайдшоу',
+				FULL_SCREEN : 'На весь экран',
+				THUMBS      : 'Превью'
+			}
+		},
 	});
 	$('.fancy-map').fancybox({
 		toolbar: false,
@@ -95,7 +108,20 @@ function init_fancy() {
 		transitionEffect : "slide",
 		autoFocus : false,
 		backFocus : false,
-		animationDuration : 400
+		animationDuration : 400,
+		lang : 'ru',
+		i18n : {
+			'ru' : {
+				CLOSE       : 'Закрыть',
+				NEXT        : 'Дальше',
+				PREV        : 'Назад',
+				ERROR       : 'Не удается загрузить. <br/> Попробуйте позднее.',
+				PLAY_START  : 'Начать слайдшоу',
+				PLAY_STOP   : 'Остановить слайдшоу',
+				FULL_SCREEN : 'На весь экран',
+				THUMBS      : 'Превью'
+			}
+		},
 	});
 }
 function init_fancy__video() {
@@ -108,6 +134,19 @@ function init_fancy__video() {
 			controls : 1,
 			showinfo : 0,
 			autoplay: 1
+		},
+		lang : 'ru',
+		i18n : {
+			'ru' : {
+				CLOSE       : 'Закрыть',
+				NEXT        : 'Дальше',
+				PREV        : 'Назад',
+				ERROR       : 'Не удается загрузить. <br/> Попробуйте позднее.',
+				PLAY_START  : 'Начать слайдшоу',
+				PLAY_STOP   : 'Остановить слайдшоу',
+				FULL_SCREEN : 'На весь экран',
+				THUMBS      : 'Превью'
+			}
 		},
 		onUpdate : function( instance, current ) {
 			var width,
@@ -153,6 +192,28 @@ $(document).ready(function(){
 });
 /***********************
  Прокрутка к секциям END
+ ***********************/
+
+
+/***********************
+ Submenu BEGIN
+ ***********************/
+$(document).ready(function(){
+
+	$('.top-nav__link-wrap').on('click', function(){
+		$(this).toggleClass('opened');
+	});
+
+	$(document).on('click touchstart',function (e) {
+		var container = $(".top-nav__link-wrap");
+		if (container.has(e.target).length === 0){
+			container.removeClass('opened');
+		}
+	});
+
+});
+/***********************
+ Submenu END
  ***********************/
 
 
