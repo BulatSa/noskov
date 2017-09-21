@@ -141,28 +141,179 @@
 	&.opened{
 		transform: none;
 	}
+}
 
-	a{
-		font-family: $font-serif;
-		font-size: 18px;
-		line-height: 1;
-		white-space: nowrap;
-		color: #FFF;
-		transition: color 0.3s ease;
-		padding: 5px;
-		@include res(l){
-			font-size: 14px;
-		}
-		@include res(m){
-			display: block;
-			padding: 15px 0;
-			font-size: 20px;
-		}
+.top-nav__link-wrap {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-right: 5px;
+	@include res(m) {
+		width: 100%;
+		flex-wrap: wrap;
+		margin-right: 0;
+	}
 
-		&:hover{
+	&:hover{
+		.top-nav__link-main{
 			color: $gold;
 		}
 
+		.top-nav__link-list {
+			opacity: 1;
+			pointer-events: all;
+			visibility: visible;
+			transform: translateY(0) translateZ(0);
+		}
+
+		.top-nav__link-arrow {
+			color: $gold;
+		}
+	}
+
+	@include res(l){
+		&:hover{
+			.top-nav__link-main{
+				color: #FFF;
+			}
+
+			.top-nav__link-list {
+				opacity: 0;
+				pointer-events: none;
+				visibility: hidden;
+				transform: translateY(10px) translateZ(0);
+			}
+
+			.top-nav__link-arrow {
+				color: #FFF;
+			}
+		}
+	}
+
+	&.opened {
+		.top-nav__link-main{
+			color: $gold;
+		}
+
+		.top-nav__link-list {
+			opacity: 1;
+			pointer-events: all;
+			visibility: visible;
+			transform: translateY(0) translateZ(0);
+			@include res(m){
+				display: block;
+			}
+		}
+
+		.top-nav__link-arrow {
+			color: $gold;
+			transform: rotate(-90deg);
+		}
+	}
+}
+
+.top-nav__link-main {
+	position: relative;
+	display: block;
+	padding: 5px;
+	font-family: $font-serif;
+	font-size: 18px;
+	line-height: 1;
+	white-space: nowrap;
+	color: #FFF;
+	transition: color 0.3s ease;
+	@include res(l){
+		font-size: 14px;
+	}
+	@include res(m){
+		padding: 15px 0;
+		font-size: 20px;
+	}
+
+	&.active{
+		color: $gold;
+	}
+}
+
+.top-nav__link-arrow {
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	margin-left: 2px;
+	transition: all 0.3s ease;
+	transform: rotate(90deg) translateZ(0);
+	transform-origin: 50% 50%;
+	font-size: 12px;
+	z-index: 0;
+	@include res(l) {
+		top: 0;
+		padding: 8px;
+		pointer-events: all;
+	}
+	@include res(m){
+		font-size: 16px;
+		padding: 10px;
+	}
+}
+
+.top-nav__link-list {
+	position: absolute;
+	left: -20px;
+	top: 100%;
+	min-width: calc(100% + 40px);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	list-style: none;
+	font-size: 18px;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	background: $blue;
+	transition: all 0.3s ease;
+	transform: translateY(10px) translateZ(0);
+	z-index: 5;
+	white-space: nowrap;
+	@include res(l) {
+		padding-top: 10px;
+		font-size: 14px;
+	}
+	@include res(m) {
+		display: none;
+		position: relative;
+		left: inherit;
+		top: inherit;
+		min-width: initial;
+		width: 100%;
+		padding-top: 0;
+		opacity: 1;
+		pointer-events: all;
+		visibility: visible;
+		transform: translateY(0) translateZ(0);
+		transition: none;
+		font-size: 16px;
+		white-space: normal;
+	}
+	&:hover {
+		opacity: 1;
+		pointer-events: all;
+		visibility: visible;
+		transform: translateY(0) translateZ(0);
+	}
+	li{
+		display: block;
+	}
+	a {
+		display: block;
+		padding-right: 25px;
+		padding-left: 25px;
+		padding-bottom: 12px;
+		padding-top: 12px;
+		font-family: $font-serif;
+		line-height: 1.1;
+		transition: color 0.3s ease;
+		&:hover{
+			color: $gold;
+		}
 		&.active{
 			color: $gold;
 		}
