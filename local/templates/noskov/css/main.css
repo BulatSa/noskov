@@ -3092,7 +3092,7 @@ button::-moz-focus-inner {
 
 @media (max-width: 1400px) {
   .s-site-footer {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
 }
 
@@ -5306,6 +5306,10 @@ button::-moz-focus-inner {
   }
 }
 
+.contact-info__content-column:last-child {
+  padding-right: 0;
+}
+
 .contact-info__content-callback {
   padding-bottom: 35px;
 }
@@ -5389,6 +5393,10 @@ button::-moz-focus-inner {
   border-color: transparent;
 }
 
+.contact-info__content-link {
+  white-space: nowrap;
+}
+
 .contact-info__content-link:hover i, .contact-info__content-link:hover span {
   color: #d1b36c;
   border-color: transparent;
@@ -5405,12 +5413,20 @@ button::-moz-focus-inner {
 .contact-info__content-link i {
   display: inline-block;
   width: 15px;
+  font-size: 16px;
   text-align: center;
 }
 
 .contact-info__content-link span {
   margin-left: 5px;
+  font-size: 16px;
   border-bottom: 1px solid #232780;
+}
+
+@media (max-width: 1400px) {
+  .contact-info__content-link span {
+    font-size: 14px;
+  }
 }
 
 .s-about-sert {

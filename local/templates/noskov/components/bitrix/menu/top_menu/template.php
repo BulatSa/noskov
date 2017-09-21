@@ -1,17 +1,22 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 
-<!--<nav class="top-nav">
+<nav class="top-nav">
 	<?if (!empty($arResult)):?>
 		<?foreach($arResult as $arItem):?>
 			<?if($arItem["SELECTED"]):?>
-				<a href="<?=$arItem["LINK"]?>" class="active"><?=$arItem["TEXT"]?></a>
+				<div class="top-nav__link-wrap">
+					<a class="top-nav__link-main active" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+				</div>
 			<?else:?>
-				<a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+				<div class="top-nav__link-wrap">
+					<a class="top-nav__link-main" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+				</div>
 			<?endif?>
 		<?endforeach?>
 	<?endif?>
-</nav> -->
+</nav>
 
+<!--
 	<nav class="top-nav">
 		<div class="top-nav__link-wrap">
 			<a class="top-nav__link-main" href="/about/">Об адвокате</a>
@@ -51,5 +56,5 @@
 			<a class="top-nav__link-main" href="/contacts/">Контакты</a>
 		</div>
 	</nav>
-
+-->
 <? //echo '<pre>'; print_r($arResult); echo '</pre>'; ?>
