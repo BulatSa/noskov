@@ -201,6 +201,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$('.top-nav__link-wrap').on('click', function(){
+		$('.top-nav__link-wrap').not($(this)).removeClass('opened');
 		$(this).toggleClass('opened');
 	});
 
