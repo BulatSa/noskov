@@ -528,3 +528,41 @@ $(document).ready(function(){
 /**************************************************
 	End Google Maps
 ***************************************************/
+
+
+/***********************
+CASE COUNTER BEGIN
+***********************/
+function number_to(element,from,to,duration){
+	var start = new Date().getTime();
+	setTimeout(function() {
+		var now = (new Date().getTime()) - start;
+		var progress = now / duration;
+		var result = Math.floor((to - from) * progress + from);
+		var text_to_show = progress < 1 ? result : to;
+		element.text(text_to_show);
+		if (progress < 1) setTimeout(arguments.callee, 10);
+	}, 10);
+	element.addClass('finished');
+}
+
+function start_counter() {
+	$('.details-param').each(function () {
+		if ((isVisible($(this)[0])) && (!$(this).find('strong').hasClass('finished'))) {
+			var to = $(this).data('num');
+			number_to($(this).find('strong'), 0, to, 2000);
+		}
+	});
+}
+
+
+$(document).ready(function() {
+	start_counter();
+});
+
+$(window).on('scroll',function () {
+	start_counter();
+});
+/***********************
+CASE COUNTER END
+***********************/

@@ -136,4 +136,39 @@
 			margin-top: 40px;
 		}
 	}
+
+	&__params{
+		padding: 40px 0 60px 0;
+		text-align: center;
+		@include res(s){
+			padding: 20px 0 40px 0;
+		}
+
+		strong{
+			line-height: 0.8;
+			display: block;
+			color: $gold;
+			white-space: nowrap;
+			@include res(xs){
+				font-size: 18px;
+			}
+		}
+
+		span{
+			display: block;
+			line-height: 1.2;
+			font-weight: bold;
+			text-transform: uppercase;
+			@include res(xs){
+				font-size: 10px;
+			}
+		}
+
+		small{
+			display: block;
+			margin-bottom: 8px;
+			font-style: italic;
+			font-size: 100%;
+		}
+	}
 }

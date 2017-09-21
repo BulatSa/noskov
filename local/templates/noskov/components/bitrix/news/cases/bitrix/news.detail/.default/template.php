@@ -25,7 +25,47 @@ $this->setFrameMode(true);
 		</div>
 
 		<div class="details__content user-content">
-			<?=$arResult["DETAIL_TEXT"]?>
+			<? if (!empty($arResult["PROPERTIES"]["FABULA"]["VALUE"])) : ?>
+				<h2>Фабула дела</h2>
+				<?=$arResult["PROPERTIES"]["FABULA"]["~VALUE"]["TEXT"]?>
+			<? endif; ?>
+		</div>
+
+		<div class="details__params row">
+			<? if (!empty($arResult["PROPERTIES"]["CASE_PARAM_1"]["VALUE"])) : ?>
+				<div class="grid-4">
+					<div class="details-param" data-num="<?=$arResult["PROPERTIES"]["CASE_PARAM_1"]["VALUE"]?>">
+						<strong class="h1">0</strong>
+						<small>страниц</small>
+						<span>Подготовлено документов</span>
+					</div>
+				</div>
+			<? endif; ?>
+			<? if (!empty($arResult["PROPERTIES"]["CASE_PARAM_2"]["VALUE"])) : ?>
+				<div class="grid-4">
+					<div class="details-param" data-num="<?=$arResult["PROPERTIES"]["CASE_PARAM_2"]["VALUE"]?>">
+						<strong class="h1">0</strong>
+						<small>часов</small>
+						<span>Затрачено</span>
+					</div>
+				</div>
+			<? endif; ?>
+			<? if (!empty($arResult["PROPERTIES"]["CASE_PARAM_3"]["VALUE"])) : ?>
+				<div class="grid-4">
+					<div class="details-param" data-num="<?=$arResult["PROPERTIES"]["CASE_PARAM_3"]["VALUE"]?>">
+						<strong class="h1">0</strong>
+						<small>рублей</small>
+						<span>Выгода Доверителя</span>
+					</div>
+				</div>
+			<? endif; ?>
+		</div>
+
+		<div class="details__content user-content">
+			<? if (!empty($arResult["PROPERTIES"]["SUD"]["VALUE"])) : ?>
+				<h2>Сопровождение спора в суде</h2>
+				<?=$arResult["PROPERTIES"]["SUD"]["~VALUE"]["TEXT"]?>
+			<? endif; ?>
 		</div>
 
 		<? if (!empty($arResult["PROPERTIES"]["DOCS"]["VALUE"])) : ?>
