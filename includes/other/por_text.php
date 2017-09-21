@@ -1,1 +1,9 @@
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+<p style="text-align: justify;">
+	 Действующим законодательством Российской Федерации&nbsp;в зависимости от категории спора, лиц участвующих в нем, предусматриваются различные порядки и правила рассмотрениях этих споров и Вам нет необходимости их знать и в них разбираться. Представляется, что каждый должен заниматься своим делам и, в частности, именно Адвокат, как профессиональный защитник, должен защищать Ваши интересы в суде.
+</p>
+<p style="text-align: justify;">
+	 Однако, не стоит возлагать все свои надежды только на Адвоката. Как правило, Адвоката привлекают тогда, когда ситуация уже полностью сложилась и уже зашла в тупик. При этом, зачастую дела выигрываются не в зале судебных заседаний, а на стадии зарождения конфликта. Именно на этой стадии, а еще лучше до нее, серьезное внимание уделить документированию событий и фактов, которые с Вами происходят.
+</p>
+<p style="text-align: justify;">
+	 В том случае, если у Вас имеются документы, которые подтверждают Вашу правоту, то Адвокату не придется прикладывать титанических усилий, чтобы защитить Ваши права и интересы в суде. Это напрямую сэкономить как Ваши денежные средства, так и время.
+</p>

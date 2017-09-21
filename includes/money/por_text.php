@@ -1,2 +1,13 @@
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-<p>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Proin sodales pulvinar tempor.</p>
+<p style="text-align: justify;">
+	Досудебный порядок урегулирования споров по такого рода делам ничем не отличается от других споров, по которым так же требуется взыскать денежные средства. Однако, по спорам, вытекающим из договоров займа, особенно актуально встает вопрос относительно реального возвращения денежных средств.
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	Наличие судебного акта, по которому должник обязан вернуть Вам денежные средства, в настоящее время не гарантирует Вам реальный их возврат. В связи с этим, если на момент передачи денежных средств не поднимался вопрос относительно обеспечения обязанности должника вернуть Вам деньги, то данным вопросом крайне важно озаботиться на самой начальной стадии принудительного возврата долга.
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	Адвокат поможет Вам разыскать имущество должника, наложить обеспечительные меры, тем самым, дать Вам гарантию, что результатом судебного разбирательства станет не только судебный акт в Вашу пользу, но и денежные средства, которые поступят Вам на счет. Не стоит забывать и о тех процентах, который должен Вам Заемщик, пользование Вашими денежными средствами должно быть выгодным не только должнику, но и Вам.
+</p>

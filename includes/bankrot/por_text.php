@@ -1,1 +1,18 @@
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+<p style="text-align: justify;">
+	Процедура банкротства является длительным процессом, но всегда берет свое начало с заявления о признании должника банкротом, причем такое заявление может подать не только Кредитор, но и сам Должник.
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	Данная процедура включает в себя следующие стадии: <br>
+	 1. Наблюдение (проводится анализ финансового положения компании); <br>
+	 2. Финансовое оздоровление (проводятся мероприятия по улучшению функционирования компании); <br>
+	 3. Внешнее управление (управление компанией передается внешнему управляющему); <br>
+	 4. Конкурсное производство (производится распродажа активов компании-должника и расчет с кредиторами); <br>
+	 5. Мировое соглашение.
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	 Не обязательно, что в процедуре банкротства будет каждая из вышеуказанных стадий, в частности, внешнее управление вводится только в тех случаях, когда арбитражный суд придет к выводу, что смена руководства компании-должника позволит восстановить ее платежеспособность.
+</p>

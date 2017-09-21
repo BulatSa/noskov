@@ -1,2 +1,18 @@
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-<p>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Proin sodales pulvinar tempor.</p>
+<p style="text-align: justify;">
+	 Никогда не стоит оставлять надежду решить спор миром и к необходимости соблюдения досудебного порядка урегулирования спора не стоит относиться как к формальной процедуре, тем более, если серьезно подойти к оформлению претензии.
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	 При этом, если все мирные методы разрешения конфликта исчерпаны, а нарушитель продолжает пользоваться своим положением, то такую ситуацию сможет разрешить только суд.
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	 К судебному разбирательству не стоит относится легкомысленно и все документы должны быть подготовлены в полном объеме, ведь только на основании документов суд сможет защитить Ваши интересы и наказать недобросовестного контрагента. Следует учитывать и тот факт, что судебное разбирательство не является быстрым и Ваш оппонент, если поймет безнадежность своей позиции, всеми возможными способами будет затягивать судебный процесс и противостоять удовлетворению Ваших исковых требований.&nbsp;
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	 Адвокат поможет Вам собрать необходимые доказательства, обратит внимание на возможные сложности и позволит воспользоваться всеми возможными средствами защиты Ваших прав и интересов и приведет Вас к необходимому&nbsp;результату.
+</p>
