@@ -133,7 +133,7 @@
 		</nav>
 
 		<div class="foot-bottom">
-			<div class="foot-bottom__policy">Все права защищены, 2017<br><a href="/upload/policy.docx" target="_blank" download>Политика конфиденциальности</a></div>
+			<div class="foot-bottom__policy">Все права защищены, 2017<br><a href="/upload/policy.docx" target="_blank" download>Политика конфиденциальности</a> <a href="/sitemap/">Карта сайта</a></div>
 			<a href="https://penbrain.ru" target="_blank" class="penbrain"><img src="<?=SITE_TEMPLATE_PATH?>/img/penbrain.svg" alt="Pen&Brain"></a>
 		</div>
 

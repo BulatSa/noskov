@@ -3475,6 +3475,9 @@ button::-moz-focus-inner {
   letter-spacing: 0.2em;
   font-size: 10px;
   margin-right: 15px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
 }
 
 @media (max-width: 480px) {
@@ -3486,14 +3489,31 @@ button::-moz-focus-inner {
 }
 
 .foot-bottom__policy a {
+  display: inline-block;
+  vertical-align: top;
   -webkit-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
   border-bottom: 1px solid currentcolor;
+  margin-right: 20px;
+  margin-top: 8px;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .foot-bottom__policy a {
+    margin: 8px 10px 8px 10px;
+  }
 }
 
 .foot-bottom__policy a:hover {
   color: #d1b36c;
+}
+
+.penbrain {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 @media (max-width: 480px) {
