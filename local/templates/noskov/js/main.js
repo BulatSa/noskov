@@ -3,6 +3,19 @@
 ***********************/
 $(document).ready(function(){
 
+	if($('textarea').length) {
+		$('textarea').on('focus', function () {
+			if($(this).val() == "") {
+				$(this).addClass('focused');
+			}
+		});
+		$('textarea').on('blur', function () {
+			if($(this).val() == "") {
+				$(this).removeClass('focused');
+			}
+		});
+	}
+
 	$(".ajax-form").on("submit", function(event) {
 		var form = $(this);
 		var send = true;

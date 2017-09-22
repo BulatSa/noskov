@@ -182,6 +182,24 @@ $APPLICATION->SetTitle("Споры в сфере денежных обязате
 </section>
 
 
+<section class="disput-text-sec">
+	<div class="container">
+		<div class="disput-text">
+			<div class="row">
+				<div class="grid-12">
+					<div class="user-content">
+						<?$APPLICATION->IncludeComponent("bitrix:main.include","",Array(
+							"AREA_FILE_SHOW" => "file",
+							"PATH" => "/includes/money/disput_text.php"
+						));?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-disput-order">
 	<div class="container">
 		<div class="row-bg disput-order">

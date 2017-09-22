@@ -92,6 +92,10 @@ $APPLICATION->SetTitle("Контакты");
 							"PATH" => "/includes/contacts/reqv.php"
 						));?>
 					</div>
+					<div class="contact-info__palata">
+						<a href="http://fparf.ru" target="_blank" rel="nofollow" title="Федеральная палата адвокатов"><img src="<?=SITE_TEMPLATE_PATH?>/img/contact-palata.png" alt=""></a>
+						<a href="http://www.advgazeta.ru" target="_blank" rel="nofollow" title="Адвокатская газета"><img src="<?=SITE_TEMPLATE_PATH?>/img/contact-ag.jpg" alt=""></a>
+					</div>
 				</div>
 			</div>
 
