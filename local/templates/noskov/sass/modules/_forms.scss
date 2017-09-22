@@ -60,6 +60,14 @@ input[type="text"],input[type="tel"],input[type="email"],input[type="password"],
 		}
 	}
 
+	textarea {
+		min-height: 35px;
+		resize: vertical;
+		&.focused {
+			min-height: 55px;
+		}
+	}
+
 	.btn{
 		margin-top: 15px;
 	}

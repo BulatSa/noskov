@@ -150,3 +150,13 @@
 		}
 	}
 }
+
+.contact-info__palata {
+	display: flex;
+	align-items: center;
+	padding-top: 25px;
+	a {
+		display: inline-block;
+		margin-right: 20px;
+	}
+}
