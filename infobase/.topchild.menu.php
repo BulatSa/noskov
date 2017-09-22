@@ -1,11 +1,39 @@
 <?
 $aMenuLinks = Array(
-//	Array(
-//		"Аналитика",
-//		"/about/analytics/",
-//		Array(),
-//		Array(),
-//		""
-//	)
+	Array(
+		"Завершенные проекты",
+		"/infobase/cases/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Аналитика",
+		"/infobase/analytics/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Книги",
+		"/infobase/books/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Публикации",
+		"/infobase/publications/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Статьи",
+		"/infobase/articles/",
+		Array(),
+		Array(),
+		""
+	)
 );
 ?>

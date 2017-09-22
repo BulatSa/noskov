@@ -2,59 +2,50 @@
 
 <nav class="top-nav">
 	<?if (!empty($arResult)):?>
+		<?$previousLevel = 0;?>
 		<?foreach($arResult as $arItem):?>
-			<?if($arItem["SELECTED"]):?>
+
+			<?if ($previousLevel && $arItem["DEPTH_LEVEL"] < $previousLevel):?>
+				<?=str_repeat("</ul></div>", ($previousLevel - $arItem["DEPTH_LEVEL"]));?>
+			<?endif?>
+
+			<?if ($arItem["IS_PARENT"]):?>
+
 				<div class="top-nav__link-wrap">
 					<a class="top-nav__link-main active" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
-				</div>
+					<i class="top-nav__link-arrow i-right"></i>
+					<ul class="top-nav__link-list">
+
 			<?else:?>
-				<div class="top-nav__link-wrap">
-					<a class="top-nav__link-main" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
-				</div>
+
+				<?if($arItem["DEPTH_LEVEL"] == 1): //если корневой пункт?>
+					<?if($arItem["SELECTED"]):?>
+						<div class="top-nav__link-wrap">
+							<a class="top-nav__link-main active" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+						</div>
+					<?else:?>
+						<div class="top-nav__link-wrap">
+							<a class="top-nav__link-main" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+						</div>
+					<?endif?>
+				<?else: //если меню второго уровня?>
+					<?if($arItem["SELECTED"]):?>
+						<li><a href="<?=$arItem["LINK"]?>" class="active"><?=$arItem["TEXT"]?></a></li>
+					<?else:?>
+						<li><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
+					<?endif?>
+				<?endif?>
+
 			<?endif?>
+
+			<?$previousLevel = $arItem["DEPTH_LEVEL"];?>
+
 		<?endforeach?>
+
+		<?if ($previousLevel > 1)://close last item tags?>
+			<?=str_repeat("</ul></div>", ($previousLevel-1) );?>
+		<?endif?>
+
 	<?endif?>
 </nav>
-
-<!--
-	<nav class="top-nav">
-		<div class="top-nav__link-wrap">
-			<a class="top-nav__link-main" href="/about/">Об адвокате</a>
-			<i class="top-nav__link-arrow i-right"></i>
-			<ul class="top-nav__link-list">
-				<li><a href="#">Отзывы</a></li>
-				<li><a href="/">Цены</a></li>
-				<li><a href="/">Споры в сфере недвижимости</a></li>
-			</ul>
-		</div>
-		<div class="top-nav__link-wrap">
-			<a class="top-nav__link-main active" href="/specialization/">Специализация</a>
-		</div>
-		<div class="top-nav__link-wrap">
-			<a class="top-nav__link-main" href="/disputs/">Виды споров</a>
-			<i class="top-nav__link-arrow i-right"></i>
-			<ul class="top-nav__link-list">
-				<li><a href="#">Споры в сфере денежных обязательств</a></li>
-				<li><a href="/">Споры в сфере банкротства</a></li>
-				<li><a href="/">Споры в сфере недвижимости</a></li>
-				<li><a href="/" class="active">Споры в сфере оказания услуг и торговли</a></li>
-			</ul>
-		</div>
-		<div class="top-nav__link-wrap">
-			<a class="top-nav__link-main" href="/infobase/">База знаний</a>
-			<i class="top-nav__link-arrow i-right"></i>
-			<ul class="top-nav__link-list">
-				<li><a href="#">Отзывы</a></li>
-				<li><a href="/">Цены</a></li>
-				<li><a href="/">Споры в сфере недвижимости</a></li>
-			</ul>
-		</div>
-		<div class="top-nav__link-wrap">
-			<a class="top-nav__link-main" href="/cabinet/">Кабинет доверителя</a>
-		</div>
-		<div class="top-nav__link-wrap">
-			<a class="top-nav__link-main" href="/contacts/">Контакты</a>
-		</div>
-	</nav>
--->
 <? //echo '<pre>'; print_r($arResult); echo '</pre>'; ?>

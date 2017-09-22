@@ -1,8 +1,8 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Специализация",
-		"/specialization/",
+		"Споры в сфере недвижимости",
+		"/disputs/nedv/",
 		Array(),
 		Array(),
 		""

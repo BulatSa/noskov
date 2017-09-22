@@ -1,8 +1,8 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Об адвокате",
-		"/about/",
+		"Отзывы",
+		"/about/reviews/",
 		Array(),
 		Array(),
 		""
@@ -10,13 +10,6 @@ $aMenuLinks = Array(
 	Array(
 		"Цены",
 		"/about/price/",
-		Array(),
-		Array(),
-		""
-	),
-	Array(
-		"Контакты",
-		"/contacts/",
 		Array(),
 		Array(),
 		""
