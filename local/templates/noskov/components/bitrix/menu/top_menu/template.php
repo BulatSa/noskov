@@ -53,4 +53,4 @@
 	<?endif?>
 </nav>
 
-<? echo '<pre>'; print_r($arResult); echo '</pre>'; ?>
+<? //echo '<pre>'; print_r($arResult); echo '</pre>'; ?>

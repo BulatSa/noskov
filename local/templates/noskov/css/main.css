@@ -2723,6 +2723,9 @@ button::-moz-focus-inner {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
   }
 }
 
