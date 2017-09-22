@@ -205,7 +205,7 @@ $(document).ready(function(){
 		$(this).toggleClass('opened');
 	});
 
-	$(document).on('click touchstart',function (e) {
+	$(document).on('click touch',function (e) {
 		var container = $(".top-nav__link-wrap");
 		if (container.has(e.target).length === 0){
 			container.removeClass('opened');

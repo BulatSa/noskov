@@ -12,7 +12,11 @@
 			<?if ($arItem["IS_PARENT"]):?>
 
 				<div class="top-nav__link-wrap">
-					<a class="top-nav__link-main active" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+					<?if($arItem["SELECTED"]):?>
+						<a class="top-nav__link-main active" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+					<?else:?>
+						<a class="top-nav__link-main" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+					<?endif?>
 					<i class="top-nav__link-arrow i-right"></i>
 					<ul class="top-nav__link-list">
 
@@ -48,4 +52,5 @@
 
 	<?endif?>
 </nav>
-<? //echo '<pre>'; print_r($arResult); echo '</pre>'; ?>
+
+<? echo '<pre>'; print_r($arResult); echo '</pre>'; ?>
