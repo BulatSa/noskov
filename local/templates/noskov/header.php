@@ -56,10 +56,14 @@
 				"PATH" => "/includes/social-links.php"
 			));?>
 		</nav>
-		<?$APPLICATION->IncludeComponent("bitrix:main.include","phone",Array(
-			"AREA_FILE_SHOW" => "file",
-			"PATH" => "/includes/phone.php"
-		));?>
+		<div class="top-panel__contacts">
+			<a href="#" class="btn btn--mini fancy" data-src="#modal-callback">Обратный звонок</a>
+			<?$APPLICATION->IncludeComponent("bitrix:main.include","phone",Array(
+				"AREA_FILE_SHOW" => "file",
+				"PATH" => "/includes/phone.php"
+			));?>
+		</div>
+		
 	</div>
 </section>
 

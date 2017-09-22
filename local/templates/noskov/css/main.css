@@ -2334,6 +2334,18 @@ button::-moz-focus-inner {
   background: #d1b36c;
 }
 
+.btn--mini {
+  padding: 6px 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .btn--mini {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}
+
 .modal {
   display: none;
   width: 400px;
@@ -2493,6 +2505,27 @@ button::-moz-focus-inner {
 
 .s-top-nav__logo img:hover {
   opacity: 0.8;
+}
+
+.top-panel__contacts {
+  display: flex;
+  align-items: center;
+}
+
+.top-panel__contacts .btn {
+  margin-right: 20px;
+}
+
+@media (max-width: 1024px) {
+  .top-panel__contacts .btn {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-panel__contacts .btn {
+    display: none;
+  }
 }
 
 .top-nav {

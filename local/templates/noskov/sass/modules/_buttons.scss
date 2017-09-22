@@ -71,3 +71,12 @@ button::-moz-focus-inner {
 		background: $gold;
 	}
 }
+
+.btn--mini {
+	padding: 6px 20px;
+	font-size: 14px;
+	@include res(l) {
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+}

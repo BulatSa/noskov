@@ -150,7 +150,7 @@
 		<form class="ajax-form vertical-form">
 			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
 			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
-			<textarea type="text" placeholder="Краткая суть проблемы*" rows="1" data-req="true"></textarea>
+			<textarea type="text" placeholder="Краткая суть проблемы*" data-label="Краткая суть проблемы" rows="1" data-req="true"></textarea>
 			<label class="style-checkbox">
 				<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
 				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки</a> персональных данных</span>
@@ -166,7 +166,7 @@
 		<form class="ajax-form vertical-form">
 			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
 			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
-			<textarea type="text" placeholder="Краткая суть проблемы*" rows="1" data-req="true"></textarea>
+			<textarea type="text" placeholder="Краткая суть проблемы*" data-label="Краткая суть проблемы" rows="1" data-req="true"></textarea>
 			<label class="style-checkbox">
 				<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
 				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки</a> персональных данных</span>

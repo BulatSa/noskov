@@ -108,6 +108,20 @@
 	}
 }
 
+.top-panel__contacts {
+	display: flex;
+	align-items: center;
+	.btn {
+		margin-right: 20px;
+		@include res(l) {
+			margin-right: 15px;
+		}
+		@include res(xs) {
+			display: none;
+		}
+	}
+}
+
 .top-nav{
 	flex: 1 1 auto;
 	display: flex;
