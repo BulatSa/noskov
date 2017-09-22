@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("Отзывы");
 </header>
 
 
-<section class="s-about-man">
+<section class="s-reviews-man">
 	<div class="container">
 		<div class="row-bg">
 
@@ -23,8 +23,8 @@ $APPLICATION->SetTitle("Отзывы");
 				</div>
 			</div>
 
-			<div class="grid-6 grid-5_l grid-12_m user-content">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/disput-money-about.jpg" alt="Носков Игорь юрьевич">
+			<div class="grid-6 grid-5_l grid-12_m user-content reviews-man__img">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/reviews-about.jpg" alt="Носков Игорь юрьевич">
 			</div>
 
 		</div>

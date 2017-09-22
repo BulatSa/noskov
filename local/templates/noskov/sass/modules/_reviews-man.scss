@@ -1,0 +1,22 @@
+.s-reviews-man {
+	padding: 80px 0 0;
+	overflow: hidden;
+	@include res(xl) {
+		padding: 60px 0 0;
+	}
+	@include res(l) {
+		padding: 50px 0 0;
+	}
+	@include res(s) {
+		padding: 40px 0 0;
+	}
+}
+
+.reviews-man__img {
+	display: flex;
+	align-items: flex-end;
+	img {
+		display: block;
+		margin-bottom: 0!important;
+	}
+}

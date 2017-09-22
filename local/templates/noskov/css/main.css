@@ -4806,6 +4806,45 @@ button::-moz-focus-inner {
   }
 }
 
+.s-reviews-man {
+  padding: 80px 0 0;
+  overflow: hidden;
+}
+
+@media (max-width: 1400px) {
+  .s-reviews-man {
+    padding: 60px 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .s-reviews-man {
+    padding: 50px 0 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .s-reviews-man {
+    padding: 40px 0 0;
+  }
+}
+
+.reviews-man__img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.reviews-man__img img {
+  display: block;
+  margin-bottom: 0 !important;
+}
+
 .about-icon-list {
   display: -webkit-box;
   display: -webkit-flex;
