@@ -155,7 +155,7 @@
 				<input type="checkbox" name="user_agree" value="yes" data-label="Пользователь согласился с условиями" data-req="true" checked>
 				<span>Я согласен с <a href="/upload/policy.docx" target="_blank" rel="nofollow" download>условиями обработки</a> персональных данных</span>
 			</label>
-			<input type="hidden" value="Заказ обртаного звонка" name="form_subject">
+			<input type="hidden" value="Заказ обратного звонка" name="form_subject">
 			<button type="submit" class="btn">Отправить</button>
 		</form>
 	</div>
