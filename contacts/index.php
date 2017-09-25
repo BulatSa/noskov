@@ -93,8 +93,12 @@ $APPLICATION->SetTitle("Контакты");
 						));?>
 					</div>
 					<div class="contact-info__palata">
-						<a href="http://fparf.ru" target="_blank" rel="nofollow" title="Федеральная палата адвокатов"><img src="<?=SITE_TEMPLATE_PATH?>/img/contact-palata.png" alt=""></a>
-						<a href="http://www.advgazeta.ru" target="_blank" rel="nofollow" title="Адвокатская газета"><img src="<?=SITE_TEMPLATE_PATH?>/img/contact-ag.jpg" alt=""></a>
+						<noindex>
+							<a href="http://fparf.ru" target="_blank" rel="nofollow" title="Федеральная палата адвокатов"><img src="<?=SITE_TEMPLATE_PATH?>/img/contact-palata.png" alt=""></a>
+						</noindex>
+						<noindex>
+							<a href="http://www.advgazeta.ru" target="_blank" rel="nofollow" title="Адвокатская газета"><img src="<?=SITE_TEMPLATE_PATH?>/img/contact-ag.jpg" alt=""></a>
+						</noindex>
 					</div>
 				</div>
 			</div>
